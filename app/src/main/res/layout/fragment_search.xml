@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="탐색모드 화면"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/na_bold"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/micButton2"
+                    android:contentDescription="음성인식"
+                    android:layout_gravity="center"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/mic_image"
+                    android:background="@color/non_screen"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="음성인식"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/na_bold"
+                    android:textSize="25dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/search_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="5"
+                        android:contentDescription="찾고자 하는 상품을 입력을 입력해주세요"
+                        android:hint="찾고자 하는 상품을 입력"
+                        android:textSize="20sp"
+                        android:minHeight="48dp" />
+
+                    <Button
+                        android:id="@+id/addButton2"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:contentDescription="찾으려는 상품 탐색"
+                        android:background="@drawable/search_button"
+                        android:fontFamily="@font/na_bold"
+                        android:textSize="30dp"
+                        android:text="찾기" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/listView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </FrameLayout>
+
+
+</LinearLayout>

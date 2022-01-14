@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975293422592",
+    "firebase_url": "https://eyeshopping-6be02-default-rtdb.firebaseio.com",
+    "project_id": "eyeshopping-6be02",
+    "storage_bucket": "eyeshopping-6be02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975293422592:android:1f8aed7ec0fb9959e3cce5",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975293422592-3cj9blghisuhmdbo4r05uccn36pfehj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.lite.examples.detection",
+            "certificate_hash": "ed00042732fe63fa115796e133c0383f8a2be507"
+          }
+        },
+        {
+          "client_id": "975293422592-tjkjvass6non7o4g775kpfi2el7pgei7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSI4kGpZOc5eeNKVlUdfoAO9qyahGTKf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975293422592-tjkjvass6non7o4g775kpfi2el7pgei7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

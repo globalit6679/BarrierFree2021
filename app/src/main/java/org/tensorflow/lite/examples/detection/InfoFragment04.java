@@ -1,0 +1,24 @@
+package org.tensorflow.lite.examples.detection;
+
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class InfoFragment04 extends Fragment {
+
+    public InfoFragment04(){
+
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_info04, container, false);
+
+        return rootView;
+    }
+}
